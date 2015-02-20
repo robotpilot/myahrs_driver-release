@@ -1,0 +1,12 @@
+Source: ros-indigo-myahrs-driver
+Section: misc
+Priority: extra
+Maintainer: Yoonseok Pyo <passionvirus@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://wiki.ros.org/myahrs_driver
+Standards-Version: 3.9.2
+
+Package: ros-indigo-myahrs-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Description: myahrs_driver is a driver package for the WITHROBOT's myAHRS+. The myAHRS+ is a low cost high performance AHRS(Attitude Heading Reference System) with USB/UART/I2C interface. The myAHRS+ board contains a 3-axis 16-bit gyroscope, a 3-axis 16-bit accelerometer and a 3-axis 13-bit magnetometer. The driver should also work with USB port.
